@@ -55,6 +55,7 @@ export const SignIn = () => {
 
   useEffect(() => {
     setCaptchaValue();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
